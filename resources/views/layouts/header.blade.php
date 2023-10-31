@@ -45,13 +45,13 @@
                     </li>
                     @else
                     <li>
-                        <a href="">Herramientas</a>
+                        <a href="#services">Servicios</a>
                     </li>
                     <li>
-                        <a href="">Sobre nosotros</a>
+                        <a href="#about">Sobre nosotros</a>
                     </li>
                     <li>
-                        <a href="">Contactanos</a>
+                        <a href="#footer">Contactanos</a>
                     </li>
 
                     @endif

@@ -1,6 +1,6 @@
 </div>
 
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <h2>¿Tienes alguna duda?</h2>
             <div class="contact-info">
                 <a href="" class="contact-info-card">

@@ -8,13 +8,13 @@
 <div class="carousel">
     <!-- Flickity HTML init -->
     <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-1.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-2.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-3.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-4.jpeg') }}" alt="Imagenes"></div>
     </div>
 </div>
-<div class="about-us">
+<div id="services" class="about-us">
     <h2>¿Qué servicios ofrecemos?</h2>
     <div class="cards-container">
         <div class="card">
@@ -48,14 +48,16 @@
         </div>
     </div>
 </div>
-<div class="soaga-info">
+<div id="about" class="soaga-info">
     <h2>Sobre Soaga</h2>
     <p>
     SOAGA es un sistema implementado por un grupo de programadores para desarrollar una plataforma 
     que ayude a la gestión del ambiente a instituciones que cuenten con sede física y roles que 
-    ayudan en el orden de sus salones, implementos y la coordinación de eventos. Nuestro principal
-    objetivo es desarrollar una plataforma que permita sistematizar la gestión de ambientes físicos
-    de una institución, es decir, que facilita la asignación y el control de dichos espacios.
+    ayudan en el orden de sus salones, implementos y la coordinación de eventos.
+    <br><br>
+    Nuestro principal objetivo es desarrollar una plataforma que permita sistematizar la gestión
+    de ambientes físicos de una institución, es decir, que facilita la asignación y el control
+    de dichos espacios.
     </p>
 </div>
 <div class="logos">
