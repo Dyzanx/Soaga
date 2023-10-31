@@ -8,13 +8,13 @@
 <div class="carousel">
     <!-- Flickity HTML init -->
     <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
-        <div class="gallery-cell"><img src="{{ asset('img/test.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-1.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-2.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-3.jpeg') }}" alt="Imagenes"></div>
+        <div class="gallery-cell"><img src="{{ asset('img/carrusel-4.jpeg') }}" alt="Imagenes"></div>
     </div>
 </div>
-<div class="about-us">
+<div id="services" class="about-us">
     <h2>¿Qué servicios ofrecemos?</h2>
     <div class="cards-container">
         <div class="card">
@@ -24,7 +24,6 @@
             <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"> -->
             <div class="container">
                 <h4><b>Gestion de tu entorno</b></h4>
-                <p>Architect & Engineer</p>
             </div>
         </div>
 
@@ -35,7 +34,6 @@
             <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"> -->
             <div class="container">
                 <h4><b>Facil administracion de implementos</b></h4>
-                <p>Architect & Engineer</p>
             </div>
         </div>
 
@@ -46,21 +44,20 @@
             <!-- <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"> -->
             <div class="container">
                 <h4><b>Control del personal</b></h4>
-                <p>Architect & Engineer</p>
             </div>
         </div>
     </div>
 </div>
-<div class="soaga-info">
+<div id="about" class="soaga-info">
     <h2>Sobre Soaga</h2>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula congue nisl, non ultrices
-        nunc ultrices non. Integer eget rutrum erat. Suspendisse porttitor lorem nec urna ultrices
-        facilisis. Sed elementum, massa commodo varius semper, leo eros fermentum magna, eget mollis
-        arcu purus eu nibh. Donec non egestas ipsum. Vestibulum id tristique dui, at feugiat urna.
-        Pellentesque sodales tortor lectus, id egestas risus auctor sed. Sed tempor nibh dolor, sit
-        amet laoreet erat viverra eu. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos.
+    SOAGA es un sistema implementado por un grupo de programadores para desarrollar una plataforma 
+    que ayude a la gestión del ambiente a instituciones que cuenten con sede física y roles que 
+    ayudan en el orden de sus salones, implementos y la coordinación de eventos.
+    <br><br>
+    Nuestro principal objetivo es desarrollar una plataforma que permita sistematizar la gestión
+    de ambientes físicos de una institución, es decir, que facilita la asignación y el control
+    de dichos espacios.
     </p>
 </div>
 <div class="logos">
@@ -71,7 +68,7 @@
     <h2>Participantes del proyecto</h2>
     <div class="figures-container">
         <figure style="--c:#fff5">
-            <img src="{{ asset('img/perfil/edison.jpg') }}" alt="Foto Edison Orozco">
+            <img src="{{ asset('img/perfil/edison.jpeg') }}" alt="Foto Edison Orozco">
             <figcaption>Edison orozco</figcaption>
         </figure>
         <figure style="--c:#fff5">

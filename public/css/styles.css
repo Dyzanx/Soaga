@@ -148,7 +148,7 @@ table .register-button:hover{
     width: 40%;
     height: 250px;
     margin-right: 30px;
-    background: #00cbcc;
+    background: whitesmoke;
     /* counter-increment: gallery-cell; */
     overflow: hidden;
     text-align: center;
@@ -165,6 +165,9 @@ table .register-button:hover{
     line-height: 200px;
     font-size: 80px;
     color: white;
+}
+.carousel img{
+    min-height: 250px;
 }
 
 
